@@ -9,6 +9,7 @@
     "format": "prettier --write --list-different .",
     "test": "concurrently --group=true pnpm:test:\\*",
     "test:format": "prettier --check .",
+    "test:lint": "eslint src test",
     "test:package-json": "npmPkgJsonLint .",
     "test:unit": "node --enable-source-maps --test './test/**/*.test.ts'"
   },
@@ -24,13 +25,16 @@
   },
   "type": "module",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^25.9.3",
     "concurrently": "^10.0.3",
+    "eslint": "^10.5.0",
     "npm-package-json-lint": "^10.4.0",
     "npm-package-json-lint-config-default": "^9.0.1",
     "prettier": "^3.8.4",
     "prettier-cli": "^0.1.0",
     "prettier-plugin-packagejson": "^3.0.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.0"
   }
 }
