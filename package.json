@@ -30,6 +30,7 @@
     "eslint-plugin-unused-imports": "^4.4.1"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^21.0.2",
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.9.3",
     "concurrently": "^10.0.3",
