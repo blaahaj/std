@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/blaahaj/std/compare/v1.0.0...v1.0.1) (2026-06-17)
+
+
+### Bug Fixes
+
+* set access to public ([#4](https://github.com/blaahaj/std/issues/4)) ([455bfd3](https://github.com/blaahaj/std/commit/455bfd31e547c90ab4258429934630b9870356e8))
+
 ## 1.0.0 (2026-06-17)
 
 
